@@ -1,0 +1,19 @@
+---
+BasedOnStyle: WebKit
+IndentWidth: 4
+UseTab: Never
+ColumnLimit: 0
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterFunction: true
+  AfterClass: false
+  AfterControlStatement: false
+  AfterEnum: false
+  AfterNamespace: false
+  BeforeCatch: true
+  BeforeElse: true
+  IndentBraces: false
+AllowShortFunctionsOnASingleLine: InlineOnly
+AlignTrailingComments: true
+PointerAlignment: Left
+...

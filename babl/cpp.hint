@@ -1,0 +1,2 @@
+#define BABL_API __declspec(dllexport)
+#define BABL_API __declspec(dllimport)
