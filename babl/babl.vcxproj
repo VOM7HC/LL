@@ -175,6 +175,8 @@
     <ClInclude Include="babl-model.hpp" />
     <ClInclude Include="babl-mutex.hpp" />
     <ClInclude Include="babl-polynomial.hpp" />
+    <ClInclude Include="babl-ref-pixels.hpp" />
+    <ClInclude Include="babl-sampling.hpp" />
     <ClInclude Include="babl-trc.hpp" />
     <ClInclude Include="babl.hpp" />
     <ClInclude Include="framework.h" />

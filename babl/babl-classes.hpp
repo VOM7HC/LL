@@ -1,8 +1,8 @@
 #ifndef _BABL_CLASSES_HPP
 #define _BABL_CLASSES_HPP
 
-#include "babl-class.h"
-#include "babl-db.h"
+#include "babl-class.hpp"
+#include "babl-db.hpp"
 
 #define BABL_MAGIC 0xbab100
 
@@ -34,13 +34,13 @@ enum {
     BABL_SKY
 };
 
-#include "babl-component.h"
-#include "babl-conversion.h"
-#include "babl-extension.h"
-#include "babl-fish.h"
-#include "babl-format.h"
-#include "babl-image.h"
-#include "babl-model.h"
+#include "babl-component.hpp"
+#include "babl-conversion.hpp"
+#include "babl-extension.hpp"
+#include "babl-fish.hpp"
+#include "babl-format.hpp"
+#include "babl-image.hpp"
+#include "babl-model.hpp"
 #include "babl-sampling.h"
 #include "babl-space.h"
 #include "babl-type.h"
