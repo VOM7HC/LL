@@ -19,7 +19,7 @@
 #include <cstring>
 
 #undef _BABL_INTERNAL_HPP
-#include "babl.h"
+#include "babl.hpp"
 #define _BABL_INTERNAL_HPP
 
 #include "babl-class.hpp"

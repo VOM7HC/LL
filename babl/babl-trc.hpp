@@ -1,7 +1,7 @@
 #ifndef _BABL_TRC_HPP
 #define _BABL_TRC_HPP
 
-#include "babl-polynomial.h"
+#include "babl-polynomial.hpp"
 #include "util.hpp" // base/util.hpp
 #include <cinttypes>
 #include <cmath>

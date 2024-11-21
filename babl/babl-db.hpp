@@ -5,10 +5,10 @@
 #error babl-db.h is only to be included after babl.h
 #endif
 
-#include "babl-hash-table.h"
-#include "babl-list.h"
-#include "babl-memory.h"
-#include "babl-mutex.h"
+#include "babl-hash-table.hpp"
+#include "babl-list.hpp"
+#include "babl-memory.hpp"
+#include "babl-mutex.hpp"
 
 typedef struct _BablDb BablDb;
 

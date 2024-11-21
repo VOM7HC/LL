@@ -2,7 +2,7 @@
 #define _BASE_UTIL_HPP
 
 #include "pow-24.hpp"
-#include <babl.h>
+#include "babl.hpp"
 #include <cassert>
 #include <cinttypes>
 #include <cmath>

@@ -41,9 +41,9 @@ enum {
 #include "babl-format.hpp"
 #include "babl-image.hpp"
 #include "babl-model.hpp"
-#include "babl-sampling.h"
-#include "babl-space.h"
-#include "babl-type.h"
+#include "babl-sampling.hpp"
+#include "babl-space.hpp"
+#include "babl-type.hpp"
 #include "babl-trc.hpp" // base/babl-trc.h
 
 typedef union _Babl {

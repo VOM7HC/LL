@@ -1,8 +1,6 @@
 #ifndef _BABL_CONVERSION_HPP
 #define _BABL_CONVERSION_HPP
 
-#include "babl-class.hpp"
-
 BABL_CLASS_DECLARE(conversion);
 
 const Babl* babl_conversion(const char* name);
