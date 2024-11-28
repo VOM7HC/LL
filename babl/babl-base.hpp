@@ -4,12 +4,9 @@
 #ifdef _MSC_VER
 #ifdef _M_ARM64
 #define BABL_SIMD_SUFFIX(symbol) symbol##_arm64
-#endif
-#ifdef _M_X64
+#elif defined(_M_X64)
 #define BABL_SIMD_SUFFIX(symbol) symbol##_x64
-#endif
-
-#ifndef _M_ARM64 || _M_X64
+#else
 #define BABL_SIMD_SUFFIX(symbol) symbol##_generic
 #endif
 #endif

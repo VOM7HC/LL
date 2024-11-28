@@ -192,14 +192,28 @@
     <ClInclude Include="util.hpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="babl-base.cpp" />
+    <ClCompile Include="babl-rgb-converter.cpp" />
+    <ClCompile Include="babl-trc.cpp" />
     <ClCompile Include="babl.cpp" />
     <ClCompile Include="dllmain.cpp" />
+    <ClCompile Include="formats.cpp" />
+    <ClCompile Include="model-cmyk.cpp" />
+    <ClCompile Include="model-gray.cpp" />
+    <ClCompile Include="model-rgb.cpp" />
+    <ClCompile Include="model-ycbcr.cpp" />
     <ClCompile Include="pch.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Create</PrecompiledHeader>
     </ClCompile>
+    <ClCompile Include="type-float.cpp" />
+    <ClCompile Include="type-half.cpp" />
+    <ClCompile Include="type-u15.cpp" />
+    <ClCompile Include="type-u16.cpp" />
+    <ClCompile Include="type-u32.cpp" />
+    <ClCompile Include="type-u8.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

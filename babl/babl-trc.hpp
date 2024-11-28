@@ -39,8 +39,8 @@ struct BablTRC {
     float poly_gamma_from_linear_x1;
     float* lut;
     float* inv_lut;
-    char name[128];
-    int valid_u8_lut;
+    int8_t name[128];
+    int32_t valid_u8_lut;
     float u8_lut[256];
 };
 

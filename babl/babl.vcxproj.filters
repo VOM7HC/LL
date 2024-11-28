@@ -22,6 +22,9 @@
     <Filter Include="Header Files\base">
       <UniqueIdentifier>{cf37d233-7232-4f82-a4dd-310eea3d8046}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\base">
+      <UniqueIdentifier>{e408b832-0c69-45aa-bbe3-edbce33e2357}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="cpp.hint" />
@@ -145,6 +148,48 @@
     </ClCompile>
     <ClCompile Include="pch.cpp">
       <Filter>Source Files\stock</Filter>
+    </ClCompile>
+    <ClCompile Include="babl-base.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="babl-rgb-converter.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="babl-trc.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="formats.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="model-cmyk.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="model-gray.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="model-rgb.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="model-ycbcr.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="type-float.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="type-half.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="type-u8.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="type-u15.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="type-u16.cpp">
+      <Filter>Source Files\base</Filter>
+    </ClCompile>
+    <ClCompile Include="type-u32.cpp">
+      <Filter>Source Files\base</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
