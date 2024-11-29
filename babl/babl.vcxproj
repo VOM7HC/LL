@@ -187,12 +187,22 @@
     <ClInclude Include="babl-version.hpp" />
     <ClInclude Include="babl.hpp" />
     <ClInclude Include="framework.h" />
+    <ClInclude Include="git-version.hpp" />
     <ClInclude Include="pch.h" />
     <ClInclude Include="pow-24.hpp" />
     <ClInclude Include="util.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="babl-base.cpp" />
+    <ClCompile Include="babl-cache.cpp" />
+    <ClCompile Include="babl-component.cpp" />
+    <ClCompile Include="babl-conversion.cpp" />
+    <ClCompile Include="babl-core.cpp" />
+    <ClCompile Include="babl-cpuaccel.cpp" />
+    <ClCompile Include="babl-db.cpp" />
+    <ClCompile Include="babl-extension.cpp" />
+    <ClCompile Include="babl-fish-path.cpp" />
+    <ClCompile Include="babl-fish-reference.cpp" />
     <ClCompile Include="babl-rgb-converter.cpp" />
     <ClCompile Include="babl-trc.cpp" />
     <ClCompile Include="babl.cpp" />

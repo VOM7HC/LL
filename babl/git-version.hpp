@@ -1,0 +1,6 @@
+#ifndef __BABL_GIT_VERSION_HPP__
+#define __BABL_GIT_VERSION_HPP__
+
+#define BABL_GIT_VERSION "@BABL_GIT_VERSION@"
+
+#endif /* __BABL_GIT_VERSION_H__ */
